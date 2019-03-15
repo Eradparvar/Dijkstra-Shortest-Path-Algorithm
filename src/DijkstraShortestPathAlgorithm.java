@@ -60,14 +60,4 @@ public class DijkstraShortestPathAlgorithm {
 		return lowestDistanceNode;
 	}
 
-//	private void print() {
-//		System.out.println("The sourceNode is " + sourceNode.getId());
-//		for (Entry<Integer, Node> entry : graph.getNodes().entrySet()) {
-//
-//			System.out.println("The shortest path for" + entry.getValue());
-//
-//			System.out.println(entry.getValue().getAlgoInfo().getShortestDistVertexVia());
-//		}
-//	}
-
 }

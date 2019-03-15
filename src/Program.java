@@ -6,9 +6,9 @@ public class Program {
 
 	public static void main(String[] args) throws FileNotFoundException {
 //		Uncomment to use inputfile.txt
-		File file = new File("inputFile.txt");
-		Scanner scanner = new Scanner(file);
-//		Scanner scanner = new Scanner(System.in);
+//		File file = new File("inputFile.txt");
+//		Scanner scanner = new Scanner(file);
+		Scanner scanner = new Scanner(System.in);
 		Graph graph = new Graph();
 		String vertexID1 = null, vertexID2;
 		int weight;

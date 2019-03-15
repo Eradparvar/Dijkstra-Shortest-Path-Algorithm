@@ -1,10 +1,8 @@
 
 import java.util.HashMap;
-import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 public class Node {
 	private String nodeName;
@@ -46,7 +44,6 @@ public class Node {
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return nodeName + " " + distance;
 	}
 }
